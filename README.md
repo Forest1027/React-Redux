@@ -20,5 +20,5 @@ Component (wants to manipulate app state) -> dispatches Actions -> Action reache
 | Type | Example | Use Redux |
 |------|---------|-----------|
 |Local UI State|Show/Hide Backdrop|Mostly handled within components|
-|Persistent State|All Users, all Posts|Stored on ser, relevant slice managed by Redux|
+|Persistent State|All Users, all Posts|Stored on server, relevant slice managed by Redux|
 |Client State|Is Authenticated? Filters set by User|Managed via Redux|
