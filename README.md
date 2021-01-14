@@ -22,3 +22,6 @@ Component (wants to manipulate app state) -> dispatches Actions -> Action reache
 |Local UI State|Show/Hide Backdrop|Mostly handled within components|
 |Persistent State|All Users, all Posts|Stored on server, relevant slice managed by Redux|
 |Client State|Is Authenticated? Filters set by User|Managed via Redux|
+
+## Action Creators
+A function that returns a function.
