@@ -24,4 +24,8 @@ Component (wants to manipulate app state) -> dispatches Actions -> Action reache
 |Client State|Is Authenticated? Filters set by User|Managed via Redux|
 
 ## Action Creators
-A function that returns a function.
+A function that returns a function. 
+
+With the help of redux-thunk middleware, the dispatched action can be caught by redux-thunk 
+and execute asynchronous code, then the middleware dispatches the action again to allow it 
+to continue to reach reducers.
