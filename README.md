@@ -29,3 +29,10 @@ A function that returns a function.
 With the help of redux-thunk middleware, the dispatched action can be caught by redux-thunk 
 and execute asynchronous code, then the middleware dispatches the action again to allow it 
 to continue to reach reducers.
+
+## Where to put data transforming logic?
+| Action Creators | Reducer |
+|---|---|
+| Can run async Code | Pure, Sync Code only|
+| Shouldn't prepare the State update too much| Core Redux Concept: Reducers update the state |
+ 
